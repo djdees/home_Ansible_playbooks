@@ -1,0 +1,7 @@
+---
+- hosts: lab
+  roles:
+    - base_pi
+    - base_home
+    - base_ssh
+...

@@ -1,0 +1,5 @@
+---
+- hosts: piholes
+  roles:
+    - pihole_dns
+...

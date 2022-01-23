@@ -1,0 +1,5 @@
+---
+- hosts: print_servers
+  roles:
+    - base_samba
+...

@@ -1,0 +1,5 @@
+---
+- hosts: lab
+  roles:
+    - base_ssh
+...

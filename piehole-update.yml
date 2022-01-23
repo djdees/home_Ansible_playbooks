@@ -1,0 +1,9 @@
+---
+- hosts: piholes
+  tasks:
+    - import_role:
+        name: pihole_dns
+      tags:
+        - update
+
+...
