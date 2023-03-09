@@ -10,4 +10,5 @@
           - "Processor is {{ ansible_processor }}"
           - "Core count is {{ ansible_processor_cores }}"
           - "Processor count is {{ ansible_processor_count }}"
+          - "ansible_distribution_release is {{ ansible_distribution_release}}"
 ...

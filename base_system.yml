@@ -1,0 +1,6 @@
+---
+- hosts: print_servers:infra_servers
+  roles:
+    - base_home
+    - base_ssh
+...
